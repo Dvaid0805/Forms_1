@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+h1{
+    margin:0px;
+}
+.footer{
+    font-family: 'Raleway', sans-serif;
+    color:#262626;
+    background: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 0px;
+    min-height:100vh;
+}
+.footer__mainPart{
+    margin-bottom: 120px;
+}
+.container{
+    margin:0px auto;
+    width: 1170px;
+}
+.footer__heading-container{
+    display: flex;
+    justify-content: center;
+    padding-top:52px;
+    margin-bottom: 50px;
+}
+.footer__heading{
+    text-align: center;
+}
+.footer__title{
+    max-width: 370px;
+    font-weight:700;
+    font-size: 30px;
+    margin-bottom:16px;
+}
+.footer__subtitle{
+    max-width: 370px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.footer__info-content-container{
+    display: flex;
+}
+.footer__forms-container{
+    display: flex;
+    flex-direction: column;
+    margin-right:170px;
+    width: 500px;
+    height: 324px
+}
+.footer__forms-container-item{
+    height: 50px;
+    background-color: rgba(0, 196, 196, .5 );
+    outline: none;
+    border:none;
+    color:white;
+    transition: border-left 0.5s ease;
+}
+.footer__forms-container-item:hover{
+    border-left:5px solid #355B82;
+    background-color:#00c4c4;
+}
+.footer__forms-container-item + .footer__forms-container-item{
+    margin-top:10px;
+}
+.footer__forms-container-item::placeholder{
+    color:white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.footer__forms-container-item:hover::-webkit-input-placeholder {
+    font-weight: 700;
+}
+.textarea-form{
+    resize:none;
+    width: 500px;
+    height: 250px;
+}
+.footer__info-item + .footer__info-item{
+    margin-top:13px;
+}
+.info-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.info-items{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer__footerPart{
+    background-color:#262626;
+}
+.footer-footer__container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:17px;
+    color:#b9b9b9;
+}
+.copyright{
+    font-size:16px;
+}
+.footer-logo{
+    font-size:25px;
+    font-family:'Pacifico';
+}
+.footer-creator span{
+    color:#FF2B58;
+}
+.footer-creator{
+    font-size: 15px;
+}
